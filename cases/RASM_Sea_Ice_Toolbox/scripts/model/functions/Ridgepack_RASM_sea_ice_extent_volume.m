@@ -46,7 +46,8 @@ function Ridgepack_RASM_sea_ice_extent_volume(runcell,leg,minthick,mintime,maxti
 cesmle=false;
 
 % switch on/off piomass data
-piomas=true;
+%piomas=true;
+piomas=false;
 
 clf
 
@@ -96,7 +97,7 @@ isendday=[31 31 31 30 31 30 30 30 30 30];
 isenddates=datenum(ismeanyear,isendmonth,isendday);
 
 % load in ICESat data, and add area of grid cells
-ncis=ridgepack_clone([getenv('HOME'),'/data/SATELLITE/processed/kwok_icesat.nc']);
+ncis=ridgepack_clone('/Volumes/Roberts4/data/SATELLITE/processed/kwok_icesat.nc');
 
 xemax=0;
 xemin=100;
@@ -122,7 +123,7 @@ for j=1:length(runcell)
  else
   disp(['CASE: ',run]);
  end
- basedir=[getenv('HOME'),'/work/processing/'];
+ basedir='/Volumes/Roberts4/work/processing/';
  
  rrun=run;
  %filetype1='.cice.hp.';
@@ -133,7 +134,7 @@ for j=1:length(runcell)
  sfield='hi';
  snowfield='hs';
 
- satdir=[getenv('HOME'),'/data/SATELLITE/processed'];
+ satdir='/Volumes/Roberts4/data/SATELLITE/processed';
  filetype5='G02202_v3_merged_conc_north_1979_2017_extent_area.nc';
 
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

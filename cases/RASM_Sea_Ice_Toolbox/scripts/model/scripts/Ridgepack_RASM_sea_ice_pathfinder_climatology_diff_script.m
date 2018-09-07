@@ -12,13 +12,13 @@
 %rasmcases={'R1009RBRceap01a','R2100aRBRcaaa01a','R2100aRBRcpon01a','R2100aRBRctop01a'};
 %quicknames={'RASM 1.1','RASM 2.1.a','RASM 2.1.pon','RASM 2.1.top'};
 
-rasmcases={'R1009RBRceap01a','R2100aRBRcaaa01a'};
-quicknames={'RASM 1.1','RASM 2.1'};
+rasmcases={'R1009RBRceap01a'};
+quicknames={'RASM 1.1'};
 
 pubdir='/Users/aroberts/science/publications/2018_RASM/Figures'
 
 startyear=1990
-endyear=2009
+endyear=1996
 
 format=2;
 

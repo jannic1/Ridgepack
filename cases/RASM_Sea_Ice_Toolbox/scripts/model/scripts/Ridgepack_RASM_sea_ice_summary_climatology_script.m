@@ -1,7 +1,7 @@
 
 
-rasmcases={'c6G05b','consortium4','R2100aRBRcaaa01a'};
-quicknames={'RASM CICE6-G','RASM CICE6','RASM 2.1'};
+rasmcases={'R1847_cice6_RBR_test00'};
+quicknames={'CICE 6'};
 
 pubdir='/Users/aroberts/science/publications/2018_RASM/Figures'
 
@@ -9,7 +9,7 @@ pubdir='/Users/aroberts/science/publications/2018_RASM/Figures'
 pub=false
 
 startyear=1980
-endyear=1982
+endyear=2015
 
 minthick=[0.0]
 

@@ -20,17 +20,17 @@
 
 % set graph bounds
 mintime=datenum(1980,1,1);
-maxtime=datenum(1983,1,1);
+maxtime=datenum(2015,1,1);
 
 % set the cases required to be analyzed, and their short notation, or 'quicknames'
-rasmcases={'c6G05b','consortium4','R2100aRBRcaaa01a'};
-quicknames={'RASM CICE6-G','RASM CICE6','RASM 2.1'};
+rasmcases={'R1847_cice6_RBR_test00','R2100aRBRcevp01a'};
+quicknames={'CICE6','R2100aRBRcevp01a'};
 
 pubdir='/Users/aroberts/science/publications/2018_RASM/Figures'
 
 % set minimum model thickness for which concentration, extent and area are calculated
 %minthick=[0.25]
-minthick=[0.0]
+minthick=[0.25]
 
 % determine if publication-quality is required (removes some notation, and header)
 %pub=true;

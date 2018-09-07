@@ -46,7 +46,7 @@ end
 if ~pub; disp('This is not for a publication'); end
 
 % read in mask
-ncm=ridgepack_clone('/Users/aroberts/data/MODEL/RASM/RASM_POPCICE_GRID_MASKS_AND_METRICS',...
+ncm=ridgepack_clone('/Volumes/Roberts4/work/RASM_MASKS/RASM_POPCICE_GRID_MASKS_AND_METRICS',...
                {'mask_centralarctic','latitude','longitude'});
 
 count=0;
@@ -58,7 +58,7 @@ for j=1:nrows
  quickname=char(quicknames{j});
 
  % set cases
- home=getenv('HOME');
+ home=('/Volumes/Roberts4');
  dirdata=[home,'/data'];
  dircase=[home,'/work/processing/',rasmcase,'/ice/monthly'];
  

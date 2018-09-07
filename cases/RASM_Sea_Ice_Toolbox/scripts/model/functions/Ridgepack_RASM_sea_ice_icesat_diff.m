@@ -16,7 +16,7 @@ end
 
 
 home=getenv('HOME');
-dirdata=['/Volumes/RobertsRaid3/data'];
+dirdata=['/Volumes/Roberts4/data'];
 
 % multiplot specifications
 nrows=length(rasmcases)+1;
@@ -25,7 +25,7 @@ ncols=min(columns,5);
 %%%%%%%% MODEL DATA %%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Mean thickness information for first case
-dircase=['/Volumes/RobertsRaid3/work/processing/',char(rasmcases{1}),'/ice/monthly'];
+dircase=['/Volumes/Roberts4/work/processing/',char(rasmcases{1}),'/ice/monthly'];
 fieldh='hi'; fileh=[dircase,'/',char(rasmcases{1}),'.cice.h.',fieldh];
 
 
@@ -147,7 +147,7 @@ for k=1:ncols
    
    else 
 
-    dircase=['/Volumes/RobertsRaid3/work/processing/',char(rasmcases{j-1}),'/ice/monthly'];
+    dircase=['/Volumes/Roberts4/work/processing/',char(rasmcases{j-1}),'/ice/monthly'];
     cd(dircase)
 
     fileh=[dircase,'/',char(rasmcases{j-1}),'.cice.h.',fieldh];

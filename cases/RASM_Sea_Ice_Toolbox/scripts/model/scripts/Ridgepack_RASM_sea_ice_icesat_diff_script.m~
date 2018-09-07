@@ -2,13 +2,13 @@
 
 
 rasmcases={'R1847_cice6_RBR_test00'};
-quicknames={'CICE_6'};
+quicknames={'RASM 2.1'};
 
 pubdir='/Users/aroberts/science/publications/2018_RASM/Figures'
 
 
 %springfall={'spring','fall'};
-springfall={'spring'};
+springfall={'fall'};
 columns=5;
 
 pub=false;
